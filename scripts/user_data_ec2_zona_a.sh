@@ -32,7 +32,7 @@ curl -fsSL https://rpm.nodesource.com/setup_21.x | sudo bash -
 sudo yum install -y nodejs
 
 # Instalar PostgreSQL Client (psql)
-sudo yum install -y postgresql
+sudo yum install -y postgresql15.x86_64
 
 # Verificar versões instaladas
 docker --version

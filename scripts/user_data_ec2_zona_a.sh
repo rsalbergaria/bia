@@ -15,9 +15,9 @@ sudo newgrp docker
 sudo systemctl enable docker.service
 sudo systemctl start docker.service
 
-# Instalar Docker Compose 2
+# Instalar Docker Compose 2.28.0 para x86_64
 sudo mkdir -p /usr/local/lib/docker/cli-plugins
-sudo curl -SL https://github.com/docker/compose/releases/download/v2.23.3/docker-compose-linux-x86_64 -o /usr/local/lib/docker/cli-plugins/docker-compose
+sudo curl -L https://github.com/docker/compose/releases/download/v2.28.0/docker-compose-linux-x86_64 -o /usr/local/lib/docker/cli-plugins/docker-compose
 sudo chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
 
 # Adicionar swap

@@ -9,3 +9,9 @@
 docker compose exec server bash -c 'npx sequelize db:create'
 docker compose exec server bash -c 'npx sequelize db:migrate'
 ```
+
+```
+git remote add upstream https://github.com/henrylle/bia.git
+git fetch upstream
+git rebase upstream/main
+```
